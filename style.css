@@ -1,0 +1,258 @@
+.main-page {
+  /* position: absolute; */
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  font-weight: 400;
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  color: black;
+}
+
+.box1-box {
+  text-align: center;
+  border: 2px solid rgb(128, 130, 133);
+  border-radius: 20px;
+}
+
+div.restores .restoresSpan {
+  background-color: white;
+}
+
+.ytMain {
+  width: 728px;
+  background-repeat: no-repeat;
+  text-align: center;
+  border: 2px solid rgb(128, 130, 133);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px #000;
+  margin: auto;
+}
+
+img {
+  /* margin-left: 15%; */
+  /* width: 1000px; */
+  border-radius: 10px;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  letter-spacing: 0em;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.doIt {
+  text-align: center;
+  font-weight: 700;
+  margin-left: 20%;
+}
+
+.youwill {
+  text-align: center;
+  margin-left: 25%;
+}
+
+.button1 {
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 10%;
+  border-color: rgb(255, 255, 255);
+  border-width: 4px;
+  background-color: rgb(52, 147, 45);
+  box-shadow: 0px 0px 5px 0px rgb(255 255 255) inset;
+  border-radius: 12px;
+}
+
+.buttonChild {
+  background-color: rgb(52, 147, 45);
+  margin: 2%;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.d19 {
+  line-height: 40px;
+  font-size: 22px;
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: 0em;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.button2 {
+  width: 100%;
+  margin: 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.button2Child {
+  width: 55%;
+  height: 10%;
+  border-color: rgb(255, 255, 255);
+  border-width: 4px;
+  background-color: rgb(52, 147, 45);
+  box-shadow: 0px 0px 5px 0px rgb(255 255 255) inset;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 2%;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.privacy {
+  display: flex;
+  margin-left: 35%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.privacyText {
+  color: rgb(62, 62, 232);
+}
+
+.natureBox {
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+.natureDiv > img {
+  margin: auto;
+  margin-left: 15%;
+}
+
+.disclaimerSpan {
+  height: 100%;
+}
+.disclaimerClass {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.spanAll {
+  height: 100%;
+}
+
+.classAll {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.pClass {
+  font-size: small;
+  /* margin: 5%; */
+  text-align: center;
+}
+
+.lastP {
+  text-align: center;
+}
+
+.lastSpan {
+  font-size: 11px;
+  text-align: center;
+  text-align: center;
+}
+
+.imgLast {
+  margin: 5%;
+  margin-left: 50%;
+  width: 64px;
+  height: 77px;
+}
+
+.classAll {
+  font-size: 11px;
+}
+
+.restores .restoresSpan {
+  color: rgb(67, 174, 233);
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1440px) {
+  .box1-box {
+    margin: auto;
+  }
+
+  .privacy {
+    display: flex;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .natureDiv > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 916px) {
+  div .ytMain {
+    width: 600px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    border: none;
+  }
+
+  img {
+    width: 100%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  div .ytMain {
+    width: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    border: none;
+  }
+
+  img {
+    width: 100%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 511px) {
+  div .ytMain {
+    width: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    border: none;
+  }
+
+  img {
+    width: 100%;
+    margin-right: 5%;
+  }
+}
